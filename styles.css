@@ -7,7 +7,7 @@
     display: flex;
 }
 
-@media screen and (min-width:1px) and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .titlu{
         color: green;
         flex-direction: column;
@@ -75,27 +75,27 @@
 }
 @media screen and (min-width: 751px) and (max-width:900px) {
     .container{
-        display: grid;
+       
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media screen and (min-width:601px) and (max-width:750px){
     .container{
-        display: grid;
+       
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width:451px) and (max-width:600px){
     .container{
-        display: grid;
+        
         grid-template-columns: 1fr 1fr;
     }
 }
 @media screen and (min-width:300px) and (max-width:450px){
     .container{
-        display: grid;
+        
         grid-template-columns: 1fr ;
     }
 }
